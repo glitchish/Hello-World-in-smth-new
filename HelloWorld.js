@@ -1,4 +1,10 @@
 var input = `emit 'Hello World!' ;`;
+/**
+ * Change "Hello World!" to whatever you want to see
+ * the change
+ * 
+ * Written by theiocoder/iocoder
+ */
 const code = input.split(' ');
 const codeEnd = code[code.length-1]
 if (code[0] === 'emit') {
